@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>FormulaEngine.Core</RootNamespace>
+    <AssemblyName>FormulaEngine.Core</AssemblyName>    
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AssemblyTitle>FormulaEngine Core Library</AssemblyTitle>
+    <Description>Parses and evaluates custom user defined formulas</Description>
+    <CurrentYear>$([System.DateTime]::Now.ToString(yyyy))</CurrentYear>
+    <Copyright>Copyright 2021-$(CurrentYear)</Copyright>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>    
+    <Authors>Kaz Andabo</Authors>
+    <IsPackable>true</IsPackable>
+    <AssemblyVersion>0.1</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="6.4.1" />
+  </ItemGroup>
+  
+</Project>

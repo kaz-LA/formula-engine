@@ -1,0 +1,23 @@
+﻿
+    Test Cases: 
+        -** invalid function argument (type!) - simple, complex expression
+        - ** optional arg
+        - *** variable number of args !! CASE, CONCAT etc
+        - ** templated functions: E.g. CASE ()
+        - ** max function nesting
+        - using an existing calculated field that in turn references another calculated field
+
+        - negative numbers -- limited support! - only negative numeric literals!
+        - empty string
+        - string literals - quoted string with double double quotes
+     
+         - should build correct sql expression: 
+         - should return referenced columns
+         - invalid function         
+         - invalid column
+         - too many args         
+         - logical functions - IIF, CASE
+         - logical operators
+         - unexpected or unknown token
+         - invalid value for parameter that has list of known values (e.g. DateDiff())
+    
